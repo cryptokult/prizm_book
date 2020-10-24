@@ -31,7 +31,7 @@ Unpack the prizm-dist archive file:
 $ tar zxvf \
            prizm-dist-1.10.4.4-linux.tgz
 ```
-[output log file](./prizm-dist-1.10.4.4-linux.tgz_setup_console_log.md)
+[output log file](./prizm-dist-1.10.4.2-linux.tgz_setup_console_log.md)
 
 Delete `prizm-dist` archive file
 ```shell
@@ -57,7 +57,7 @@ Unpack the `JRE™` archive file:
 $ tar zxvf \
            jre-8u271-linux-x64.tar.gz
 ```
-[output log file](jre-8u271-linux-x64.tar.gz_setup_console_log.md)
+[output log file](./jre-8u271-linux-x64.tar.gz_setup_console_log.md)
 
 Delete `JRE™` archive file
 ```shell
@@ -113,7 +113,7 @@ $ ps -A | grep java
 - Output of this command will give the list of java processes running on your system. Note down Process ID (PID) `prizmEngine.jar`.
 - Second command:
 ```shell
-$kill -9 PID
+$ kill -9 PID
 ```
 - Wait 3 minutes while databases `prizmEngine` are closed.
 - Start `run.sh` and be connected to the `ip:9976`
