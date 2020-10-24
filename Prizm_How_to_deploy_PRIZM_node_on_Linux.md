@@ -31,7 +31,12 @@ Unpack the prizm-dist archive file:
 $ tar zxvf \
            prizm-dist-1.10.4.4-linux.tgz
 ```
-[output log file](./logs/prizm-dist-1.10.4.2-linux.tgz_setup_console_log.md)
+[output log file for 1.10.4.2](./logs/prizm-dist-1.10.4.2-linux.tgz_setup_console_log.md)  
+[output log file for 1.10.4.4](./logs/prizm-dist-1.10.4.4-linux.tgz_setup_console_log.md)
+
+```prolog
+WARNING: Peers.<clinit>: Your announced address is not valid: java.net.UnknownHostException: PRIZM-XXXX-XXXX-XXXX-XXXX: Temporary failure in name resolution
+```
 
 Delete `prizm-dist` archive file
 ```shell
@@ -96,8 +101,8 @@ In this step we need to adjust `prizm.default.properties`:
 #### 3rd step
 Testing and running prizmEngine:
 
-1. Run the `run-test.sh` and see if there are any errors?
-[output log file](./logs/prizm-dist-1.10.4.2-linux.tgz_setup_console_log.md)
+1. Run the `run-test.sh` and see if there are any errors?  
+[output log file](./logs/prizm_dist_run_test.sh_console_log_for_1.10.4.4_fixed-conf.md)  
 
 2. I hope that number of errors is 0 and we move to next step.
 
@@ -108,7 +113,7 @@ Testing and running prizmEngine:
 http://localhost:9976/index.html
 
 ##### ctrl-C
-[output log file](./prizm_dist_run_test.sh_ctrl-c_console_log.md)
+[output log file for 1.10.4.2](./prizm_dist_run_test.sh_ctrl-c_console_log_for_1.10.4.2.md)
 
 if you see index.html file and stable connection then all is well.
 
@@ -126,3 +131,9 @@ $ kill -9 PID
 - Wait 3 minutes while databases `prizmEngine` are closed.
 - Start `run.sh` and be connected to the `ip:9976`  
 [output log file](./logs/prizm_dist_run.sh_console_log.md)
+
+Get Info status about Prizm Node
+```shell
+$ getStatus.sh
+```
+[output log file](./logs/prizm_dist_getStatus.sh_console_log.md)
