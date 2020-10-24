@@ -134,6 +134,6 @@ $ kill -9 PID
 
 Get Info status about Prizm Node
 ```shell
-$ getStatus.sh
+$ ./getStatus.sh
 ```
 [output log file](./logs/prizm_dist_getStatus.sh_console_log.md)
