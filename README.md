@@ -12,3 +12,8 @@ Prizm - API - Payment system Inegration
 from original [Prizm forging webpage](https://pzm.space/en/prizm-forging)
 
 [Prizm FAQ](https://pzm.space/en/prizm-faq/)
+
+#### Dev contacts: 
+[@pzmspacebot](https://web.telegram.org/#/im?p=@pzmspacebot)  
+[@pzmspacebot_admin](https://web.telegram.org/#/im?p=@pzmspacebot_admin)  
+[@prizmdev_en](https://web.telegram.org/#/im?p=@prizmdev_en)
