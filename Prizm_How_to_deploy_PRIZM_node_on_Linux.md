@@ -8,46 +8,66 @@ RAM 2GB and more
 Free disk space 64GB and more
 
 ---
-#### 1st step
-Now, we need to install
-- [prizm-dist aka Prizm Core Wallet](https://github.com/cryptokult/prizm_core_wallet) and
-- [JRE™- Java Runtime Environment](https://www.oracle.com/java/technologies/javase-jre8-downloads.html).
+#### 1st step - Get soft on your machine
+The [Prizm Core Wallet](https://github.com/cryptokult/prizm_core_wallet) is located in written in Java, so we need first to install the [JRE™- Java Runtime Environment](https://www.oracle.com/java/technologies/javase-jre8-downloads.html).
 
-The Prizm core is written in Java, so we need JRE™ under Linux:
+##### 1. Prism Core Setup
+You can get the Prizm Core Wallet from [prizm-dist](http://tech.prizm.space/files/prizm-dist-1.10.4.4-linux.tgz) archive.
 
-[Download jre](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
-
-[Download prizm-dist](http://tech.prizm.space/files/prizm-dist-1.10.4.2-linux.tgz)
-
-Extract a `prizm-dist-1.10.4.2-linux.tgz`:
-Change to the directory «home»:
+Download
 ```shell
-$ cd /home/
 ```
 
-Move the ``.tar.gz` archive binary to the current directory.
-Unpack the tarball:
+Navigate
 ```shell
-$ tar zxvf \
-           prizm-dist-1.10.4.2-linux.tgz
+$ cd "~/Downloads"
 ```
 
-Delete `prizm-dist-1.10.4.2-linux.tgz`
-
-Extract a `jre` in `prizm-dist` folder:
-Move `jre tar.gz` to ``/home/prizm-dist/``
-
-Let's now extract the zip file into that folder:
+Move the `.tar.gz` archive binary to the current directory
+```shell
+```
+Unpack the prizm-dist archive file:
 ```shell
 $ tar zxvf \
-           jre-8u202-linux-x64.tar.gz
+           prizm-dist-1.10.4.4-linux.tgz
+```
+[output log file](./prizm-dist-1.10.4.4-linux.tgz_setup_console_log.md)
+
+Delete `prizm-dist` archive file
+```shell
+$rm ./prizm-dist-1.10.4.4-linux.tgz
 ```
 
-Delete jre-8u202-linux-x64.tar.gz
+##### 2. JRE™ Setup
+
+[Download JRE™](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+
+Download `Linux x64 Compressed Archive` `jre-8u271-linux-x64.tar.gz`
+```
+https://download.oracle.com/otn/java/jdk/8u271-b09/61ae65e088624f5aaa0b1d2d801acb16/jre-8u271-linux-x64.tar.gz?AuthParam=1603466208_0f9aa41a66068cf28e637640b75758d8
+```
+
+Extract the `JRE™` tar.gz archive in `prizm-dist` folder:
+```shell
+$ cd "~/Downloads/prizm-dist"
+```
+
+Unpack the `JRE™` archive file:
+```shell
+$ tar zxvf \
+           jre-8u271-linux-x64.tar.gz
+```
+[output log file](jre-8u271-linux-x64.tar.gz_setup_console_log.md)
+
+Delete `JRE™` archive file
+```shell
+$rm ./jre-8u271-linux-x64.tar.gz
+```
+
 
 ##### Results:
 ```prolog
-/home/
+/$HOME/
 |— prizm-dist/
 | |— conf/
 | |— jre/
@@ -61,11 +81,11 @@ Delete jre-8u202-linux-x64.tar.gz
 ```
 
 ---
-#### 2nd step
+#### 2nd step - Setup your wallet address
 
-Yep!), we installed `prizm-dist` and `jre`.
+Yep!), we unpacked `prizm-dist` and `jre`.
 
-And so, the following step we will adjust prizm.default.properties:
+In this step we need to adjust `prizm.default.properties`:
 
 1. We open `conf/prizm.default.properties`
 2. Move to line 61 `(myAddress=)`` and insert your address.
@@ -95,5 +115,5 @@ $ ps -A | grep java
 ```shell
 $kill -9 PID
 ```
-- Wait 3 minutes while databases prizmEngine are closed.
-- Start run.sh and be connected to the ip:9976
+- Wait 3 minutes while databases `prizmEngine` are closed.
+- Start `run.sh` and be connected to the `ip:9976`
