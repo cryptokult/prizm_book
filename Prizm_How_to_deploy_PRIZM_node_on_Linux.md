@@ -31,7 +31,7 @@ Unpack the prizm-dist archive file:
 $ tar zxvf \
            prizm-dist-1.10.4.4-linux.tgz
 ```
-[output log file](./prizm-dist-1.10.4.2-linux.tgz_setup_console_log.md)
+[output log file](./logs/prizm-dist-1.10.4.2-linux.tgz_setup_console_log.md)
 
 Delete `prizm-dist` archive file
 ```shell
@@ -57,7 +57,7 @@ Unpack the `JRE™` archive file:
 $ tar zxvf \
            jre-8u271-linux-x64.tar.gz
 ```
-[output log file](./jre-8u271-linux-x64.tar.gz_setup_console_log.md)
+[output log file](./logs/jre-8u271-linux-x64.tar.gz_setup_console_log.md)
 
 Delete `JRE™` archive file
 ```shell
@@ -67,7 +67,7 @@ $rm ./jre-8u271-linux-x64.tar.gz
 
 ##### Results:
 ```prolog
-/$HOME/
+/home/
 |— prizm-dist/
 | |— conf/
 | |— jre/
@@ -97,10 +97,18 @@ In this step we need to adjust `prizm.default.properties`:
 Testing and running prizmEngine:
 
 1. Run the `run-test.sh` and see if there are any errors?
+[output log file](./logs/prizm-dist-1.10.4.2-linux.tgz_setup_console_log.md)
+
 2. I hope that number of errors is 0 and we move to next step.
+
 3. Open the browser and input: `ip:9976`
 
 **Where ip: IP = prizm.myAddress.**
+
+http://localhost:9976/index.html
+
+##### ctrl-C
+[output log file](./prizm_dist_run_test.sh_ctrl-c_console_log.md)
 
 if you see index.html file and stable connection then all is well.
 
@@ -116,4 +124,5 @@ $ ps -A | grep java
 $ kill -9 PID
 ```
 - Wait 3 minutes while databases `prizmEngine` are closed.
-- Start `run.sh` and be connected to the `ip:9976`
+- Start `run.sh` and be connected to the `ip:9976`  
+[output log file](./logs/prizm_dist_run.sh_console_log.md)
