@@ -75,14 +75,15 @@ $rm ./jre-8u271-linux-x64.tar.gz
 /home/
 |— prizm-dist/
 | |— conf/
+| |— html/
 | |— jre/
 | | |— [jre files]
-| |— prizm_db/
-| |— html/
 | |— logs/
-| |— run.sh
-| |— run_test.sh
+| |— prizm_db/
+| |— getStatus.sh
 | |— prizmEngine.jar
+| |— run_test.sh
+| |— run.sh
 ```
 
 ---
