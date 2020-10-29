@@ -1,7 +1,7 @@
 ### Prizm Gateway Configuration
 [Location directory](../prizm_gateway)
 
-[PrizmAPIServlet.properties](../prizm_gateway/PrizmAPIServlet.properties)
+[PrizmAPIServlet.properties](https://github.com/cryptokult/prizm_gateway/blob/master/PrizmAPIServlet.properties)
 `# Wallet passphrase`
 ```yml
 passphrase:

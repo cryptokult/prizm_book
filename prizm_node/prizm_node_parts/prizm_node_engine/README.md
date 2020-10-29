@@ -1,1 +1,1 @@
-[Prizm Node Engine](./PrizmEngine.jar)
+[Prizm Node Engine](https://github.com/cryptokult/prizm_node/blob/master/PrizmEngine.jar)

@@ -3,6 +3,7 @@ Documentation Guidelines & Techical Tutorials
 
 [Prizm Node](./prizm_node/README.md)
 
+[Prizm Gateway](./prizm_gateway/README.md) - don't need to use it at all 
 
 [FAQ](https://pzm.space/en/prizm-faq/)
 

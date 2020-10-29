@@ -21,11 +21,12 @@ Documentation Guidelines & Techical Tutorials
 
 
 ---
-[Prizm Node Repository](../prizm_node)
-Latest version [`1.10.4.4`](http://tech.prizm.space/files/prizm-dist-1.10.4.4-linux.tgz)
+#### [Prizm Node Setup](./setup/README.md)
+- [Deployment](./setup/prizm_node_deployment.md)
+- [Configuration](./setup/prizm_node_configuration.md)
 
 
 ---
-#### [Prizm Node Setup]
-- [Prizm Node Deployment](./setup/prizm_node_deployment.md)
-- [Prizm Node Configuration](./setup/prizm_node_configuration.md)
+[Prizm Node Repository](https://github.com/cryptokult/prizm_node)
+
+Latest version [`1.10.4.4`](http://tech.prizm.space/files/prizm-dist-1.10.4.4-linux.tgz)
