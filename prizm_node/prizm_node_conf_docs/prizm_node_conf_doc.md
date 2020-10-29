@@ -12,5 +12,13 @@
   prizm.adminPassword=[Generate an admin password for executing protected API Requests]
   ```
 
+Examples:
+ [prizm.default.properties](./prizm.default.properties)
+
  2. [logging-default.properties](.././prizm_node/conf/logging-default.properties)
   - Not necessary
+
+Examples:
+[logging-default.properties](./logging-default.properties) 
+
+

@@ -1,7 +1,7 @@
-### Prizm Tech Book 
+### Prizm Tech Book
 Documentation Guidelines & Techical Tutorials
 
-
+[Prizm Node](./prizm_node/README.md)
 
 
 [FAQ](https://pzm.space/en/prizm-faq/)
