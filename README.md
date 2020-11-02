@@ -1,2 +1,2 @@
-- [Prizm Tech Book](./Readme/Readme_en/README.md)
-- [Призм Тех Книжка](./Readme/Readme_ru/README.md)
+- [Prizm Book](./Readme/Readme_en/README.md)
+- [Призм Книжка](./Readme/Readme_ru/README.md)

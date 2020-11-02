@@ -1,4 +1,4 @@
-### Prizm Tech Book
+### Prizm Book
 Documentation Guidelines & Techical Tutorials
 
 [Node](./prizm_node/README.md)
