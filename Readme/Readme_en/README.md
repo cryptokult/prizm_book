@@ -26,5 +26,7 @@ Documentation Guidelines & Techical Tutorials
 [@pzmspacebot_admin](https://web.telegram.org/#/im?p=@pzmspacebot_admin)  
 [@prizmdev_en](https://web.telegram.org/#/im?p=@prizmdev_en)
 
+#### Prizm masters support
+[@telebrandsupport](https://web.telegram.org/#/im?p=@telebrandsupport)  
 
 #### [Products & Services](./cryptokult_goods/README.md)

@@ -26,5 +26,7 @@
 [@pzmspacebot_admin](https://web.telegram.org/#/im?p=@pzmspacebot_admin)  
 [@prizmdev_en](https://web.telegram.org/#/im?p=@prizmdev_en)
 
+#### Поддержка Призм мастеров
+[@telebrandsupport](https://web.telegram.org/#/im?p=@telebrandsupport)  
 
 #### [Продукты и Услуги](./cryptokult_goods/README.md)
