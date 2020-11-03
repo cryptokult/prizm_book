@@ -30,3 +30,5 @@ Documentation Guidelines & Techical Tutorials
 [@telebrandsupport](https://web.telegram.org/#/im?p=@telebrandsupport)  
 
 #### [Products & Services](./cryptokult_goods/README.md)
+
+#### [Prizm Account](./prizm_account/README.md)
