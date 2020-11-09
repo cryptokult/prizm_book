@@ -21,6 +21,8 @@ Documentation Guidelines & Techical Tutorials
 - [Paramining Calculator](https://paracalc.prizm.space/)
 - [Visualizer](https://tool.prizm.space/)
 
+#### Network
+- [Peers]
 #### Dev support
 [@pzmspacebot](https://web.telegram.org/#/im?p=@pzmspacebot)  
 [@pzmspacebot_admin](https://web.telegram.org/#/im?p=@pzmspacebot_admin)  
