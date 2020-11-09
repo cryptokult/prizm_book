@@ -22,7 +22,7 @@ Documentation Guidelines & Techical Tutorials
 - [Visualizer](https://tool.prizm.space/)
 
 #### Network
-- [Peers]
+- [Peers](./prizm_node_network/prizm_node_network_peers/readme.md)
 #### Dev support
 [@pzmspacebot](https://web.telegram.org/#/im?p=@pzmspacebot)  
 [@pzmspacebot_admin](https://web.telegram.org/#/im?p=@pzmspacebot_admin)  
